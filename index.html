@@ -11,8 +11,8 @@
     </head>
     <body>
         <header>
-            <div>
-                <img src="./assets/Photo/IMG_4798.jpg" alt="Portrait Quentin FROMENTÉ"/>
+            <div class="portrait">
+                <img src="./assets/Photo/IMG_4798.jpg" alt="Portrait Quentin FROMENTÉ" class="portrait__image"/>
             </div>
             <div>
                 <h1>Quentin FROMENTÉ</h1>
@@ -22,7 +22,7 @@
             </div>
         </header>
         <aside>
-            <div>
+            <div class="apropos">
                 <h3>À propos</h3>
                 <p>Issu d'une formation de Développeur Web (Bac +2), je souhaite poursuivrevers une formation de développeur Application Python en Alternance.</p>
                 <br/>
@@ -31,33 +31,27 @@
                 <p>Je suis disponible immédiatement et présent pour répondre à toute demande d'information.</p>
             </div>
             <div>
-                <tr>
-                    <thead>
-                        <h3>Contact</h3>
-                    </thead>
-                    <tbody>
-                        <td>
-                            <i class="fa-solid fa-location-dot"></i>
-                            <p>24, Avenue du Haut-Trait<br/>35760 Saint-Grégoire</p>
-                        </td>
-                        <td>
-                            <i class="fa-solid fa-phone"></i>
-                            <p>07 69 76 41 93</p>
-                        </td>
-                        <td>
-                            <i class="fa-solid fa-paper-plane"></i>
-                            <a href="mailto:quentin.fromente.cp@gmail.com">Contact Professionnel</a>
-                        </td>
-                        <td>
-                            <i class="fa-brands fa-linkedin"></i>
-                            <a href="https://www.linkedin.com/in/quentin-fromenté">Lien LinkedIn</a>
-                        </td>
-                        <td>
-                            <i class="fa-brands fa-github"></i>
-                            <a href="https://github.com/QuentinFROMENTE">Lien GitHub</a>
-                        </td>
-                    </tbody>
-                </tr>
+                <h3>Contact</h3>
+                <div class="contact__entree">
+                    <i class="fa-solid fa-location-dot contact__entree--icone"></i>
+                    <p>24, Avenue du Haut-Trait<br/>35760 Saint-Grégoire</p>
+                </div>
+                <div class="contact__entree">
+                    <i class="fa-solid fa-phone contact__entree--icone"></i>
+                    <p>07 69 76 41 93</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-paper-plane contact__entree--icone"></i>
+                    <a href="mailto:quentin.fromente.cp@gmail.com" class="contact__contact--lien">Contact Professionnel</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-linkedin contact__entree--icone"></i>
+                    <a href="https://www.linkedin.com/in/quentin-fromenté" class="contact__contact--lien">Lien LinkedIn</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-github contact__entree--icone"></i>
+                    <a href="https://github.com/QuentinFROMENTE" class="contact__contact--lien">Lien GitHub</a>
+                </div>
             </div>
         </aside>
         <section>
@@ -91,12 +85,17 @@
                 </div>
             </article>
             <aritcle>
-                <h3>Expérience Professionnlle</h3>
+                <h3>Expérience Professionnelle</h3>
                 <h4>2014 - 2020 / Technicien Terrain / ITGA / Saint-Grégoire</h4>
                 <ul>
                     <li>Réalisation de Prélèvement d'air et d'eau en vue d'analyse de santé publique (agent chimique, amiante, légionnellose).</li>
                     <li>Rédaction de rapports de suivi d'échantillon et de contamination.</li>
                     <li>Relation client.</li>
+                </ul>
+                <h4>2013 / Technicien Chimiste Stagiaire / Microsteel-CIMD / Vern-sur-Seiche</h4>
+                <ul>
+                    <li>MIse en place d'une unité de décapage chimique pré-ressuage.</li>
+                    <li>Rédaction des protocoles d'utilisation et de sécurité en fonction des manipulations réalisées.</li>
                 </ul>
             </aritcle>
             <article>
