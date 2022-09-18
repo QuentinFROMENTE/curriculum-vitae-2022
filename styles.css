@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  font-family: "Liberation Serif";
+  color: black;
+  border: 1rem solid #30343a;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+h1 {
+  border: 0.3rem solid #30343a;
+  font-size: 4rem;
+  padding: 2rem;
+}
+
+h2 {
+  padding: 1.5rem;
+  background-color: #cfa55c;
+  font-size: 3rem;
+  color: white;
+  font-weight: normal;
+}
+
+aside {
+  width: 20%;
+}
+
+h3 {
+  display: inline-block;
+  width: 100%;
+  border-bottom: 0.5rem solid #cfa55c;
+}
+
+td {
+  display: flex;
+  flex-direction: row;
+}
+
+.portrait {
+  height: 20rem;
+  width: 20rem;
+  border-radius: 10rem;
+  background-color: #cfa55c;
+}
+.portrait__image {
+  margin: 1rem;
+  height: 18em;
+  width: 18rem;
+  border-radius: 9rem;
+  object-fit: cover;
+  object-position: 50% 20%;
+}
+
+.apropos {
+  color: white;
+  background-color: #30343a;
+}
+
+.contact__entree {
+  display: flex;
+  align-items: center;
+}
+.contact__entree--icone {
+  color: #cfa55c;
+}
+.contact__entree--lien:link {
+  color: black;
+}
+
+/*# sourceMappingURL=styles.css.map */
