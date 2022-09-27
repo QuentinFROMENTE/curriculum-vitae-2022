@@ -1,0 +1,16 @@
+.portrait {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    height: 18rem;
+    width: 18rem;
+    border-radius: 9rem;
+    background-color: $colorSecondary;
+    &__image {
+        margin: 1rem;
+        height: 16em;
+        width: 16rem;
+        border-radius: 8rem;
+        object-fit: cover;
+        object-position: 50% 20%;
+    }
+}

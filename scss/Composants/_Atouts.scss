@@ -1,0 +1,36 @@
+.atouts {
+    &__sections {
+        width: 100%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: 10rem;
+    }
+    &__icone {
+        font-size: 10rem;
+        position: relative;
+        right: 3rem;
+    }
+    &__texte {
+        display: inline-block;
+        width: 2rem;
+        position: relative;
+        &--organise {
+            left: 29%;
+            top: 18%;
+        }
+        &--creatif {
+            left: 55%;
+            top: 15%;
+        }
+        &--autonome {
+            left: 28%;
+            top: 18%;
+        }
+        &--esprit {
+            left: 55%;
+            top: 10%;
+        }
+    }
+}

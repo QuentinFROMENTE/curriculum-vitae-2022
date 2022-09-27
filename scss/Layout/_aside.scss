@@ -1,0 +1,25 @@
+.apropos {
+    color: $colorFontSecondary;
+    background-color: $colorPrimary;
+    padding-left: $paddingStandard;
+    padding-right: $paddingStandard;
+    padding-bottom: $paddingStandard;
+}
+
+.contact {
+    padding-left: $paddingStandard;
+    padding-right: $paddingStandard;
+    &__entree {
+        padding-top: 0;
+        display: flex;
+        align-items: center;
+        &--texte{
+            margin: 0;
+            margin-left: 0.5rem;
+        }
+        &--icone{
+            color: $colorSecondary;
+            margin: 0.5rem;
+        }
+    }
+}

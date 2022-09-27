@@ -1,0 +1,7 @@
+.information {
+    display: flex;
+    justify-content: space-around;
+    & article {
+        width: 25%;
+    }
+}

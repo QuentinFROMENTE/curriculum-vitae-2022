@@ -1,0 +1,19 @@
+{
+  "name": "curriculum-vitae-2022",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./scss/main.scss:styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/QuentinFROMENTE/curriculum-vitae-2022.git"
+  },
+  "author": "Quentin FROMENTÉ",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/QuentinFROMENTE/curriculum-vitae-2022/issues"
+  },
+  "homepage": "https://github.com/QuentinFROMENTE/curriculum-vitae-2022#readme"
+}

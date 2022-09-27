@@ -1,0 +1,18 @@
+.loisirs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    &__titre {
+        width: 100%;
+    }
+    &__contenu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        &--icone {
+            color: $colorSecondary;
+            font-size: 2rem;
+        }
+    }
+    
+}

@@ -7,12 +7,13 @@ body {
 
 header {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  align-items: center;
 }
 
 h1 {
   border: 0.3rem solid #30343a;
-  font-size: 4rem;
+  font-size: 4.5rem;
   padding: 2rem;
 }
 
@@ -22,34 +23,81 @@ h2 {
   font-size: 3rem;
   color: white;
   font-weight: normal;
+  text-align: center;
 }
 
 aside {
   width: 20%;
+  border-right: 0.1rem #30343a solid;
+}
+
+p, a {
+  font-family: sans-serif;
 }
 
 h3 {
   display: inline-block;
   width: 100%;
-  border-bottom: 0.5rem solid #cfa55c;
+  border-bottom: 0.2rem solid #cfa55c;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+h4 {
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  font-family: "Linux Libertine G";
+}
+
+h5 {
+  font-size: 1rem;
+  margin-top: 0.1rem;
+  margin-bottom: 0.1rem;
+  font-family: "Linux Libertine G";
+}
+
+ul {
+  font-family: sans-serif;
+  margin-top: 0.2rem;
+  margin-bottom: 2rem;
+}
+
+li {
+  margin-bottom: 0.2rem;
+}
+
+table {
+  width: 100%;
+}
+
+th {
+  text-align: left;
 }
 
 td {
-  display: flex;
-  flex-direction: row;
+  height: 2rem;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+footer {
+  margin-right: 1.5rem;
 }
 
 .portrait {
-  height: 20rem;
-  width: 20rem;
-  border-radius: 10rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  height: 18rem;
+  width: 18rem;
+  border-radius: 9rem;
   background-color: #cfa55c;
 }
 .portrait__image {
   margin: 1rem;
-  height: 18em;
-  width: 18rem;
-  border-radius: 9rem;
+  height: 16em;
+  width: 16rem;
+  border-radius: 8rem;
   object-fit: cover;
   object-position: 50% 20%;
 }
@@ -57,17 +105,106 @@ td {
 .apropos {
   color: white;
   background-color: #30343a;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
 }
 
+.contact {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
 .contact__entree {
+  padding-top: 0;
   display: flex;
   align-items: center;
 }
+.contact__entree--texte {
+  margin: 0;
+  margin-left: 0.5rem;
+}
 .contact__entree--icone {
   color: #cfa55c;
+  margin: 0.5rem;
 }
-.contact__entree--lien:link {
-  color: black;
+
+.information {
+  display: flex;
+  justify-content: space-around;
+}
+.information article {
+  width: 25%;
+}
+
+.loisirs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.loisirs__titre {
+  width: 100%;
+}
+.loisirs__contenu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.loisirs__contenu--icone {
+  color: #cfa55c;
+  font-size: 2rem;
+}
+
+.atouts__sections {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 10rem;
+}
+.atouts__icone {
+  font-size: 10rem;
+  position: relative;
+  right: 3rem;
+}
+.atouts__texte {
+  display: inline-block;
+  width: 2rem;
+  position: relative;
+}
+.atouts__texte--organise {
+  left: 29%;
+  top: 18%;
+}
+.atouts__texte--creatif {
+  left: 55%;
+  top: 15%;
+}
+.atouts__texte--autonome {
+  left: 28%;
+  top: 18%;
+}
+.atouts__texte--esprit {
+  left: 55%;
+  top: 10%;
+}
+
+.delimitation {
+  width: 0.1rem;
+  height: 100%;
+  background-color: #30343a;
+}
+
+.references {
+  border: solid 1px #30343a;
+  border-radius: 0.5rem;
+  margin-bottom: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.references__poste {
+  text-align: center;
 }
 
 /*# sourceMappingURL=styles.css.map */
